@@ -41,9 +41,9 @@ public class InfoDB {
 	private JTable table;
 	
 	DefaultTableModel model;
-	String url = "jdbc:mysql://localhost:3306/credentials";
-	String username = "CST2355";
-	String password = "CST2355Database";
+	String url = "jdbc:mysql://localhost:3306/db_name";
+	String username = "USERNAME";
+	String password = "PASSWORD";
 	Connection conn;
 
 	/**
